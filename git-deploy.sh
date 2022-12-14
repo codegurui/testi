@@ -5,4 +5,4 @@ echo "Your commit message:"
 read commitmessage
 echo "Here is your commit message: $commitmessage"
 git commit -m $commitmessage
-git push -u origin master
+git push origin master
